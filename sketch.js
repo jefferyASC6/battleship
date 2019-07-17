@@ -67,10 +67,6 @@ let redJ8 = 85
 let greenJ8 = 130 
 let blueJ8 = 230
 
-let redJ9 = 85
-let greenJ9 = 130 
-let blueJ9 = 230
-
 function draw(){
     stroke (255);
     // vertical lines
@@ -145,9 +141,6 @@ function draw(){
     //J8
     fill(redJ8, greenJ8, blueJ8);
         square(630,490,70);
-    //J9
-    fill(redJ9, greenJ9, blueJ9);
-        square(630,560,70);
 }
 
 function mouseClicked(){
@@ -191,4 +184,44 @@ function mouseClicked(){
         greenD6 = 0
         blueD6 = 0
     }
-}
+    else if (mouseX>=280 && mouseX<=350 && mouseY>=350 && mouseY<=420){
+        redE6 = 255
+        greenE6 = 0
+        blueE6 = 0
+    }
+    else if (mouseX>=350 && mouseX<=420 && mouseY>=350 && mouseY<=420){
+        redF6 = 255
+        greenF6 = 0
+        blueF6 = 0
+    }
+    else if (mouseX>=420 && mouseX<=490 && mouseY>=350 && mouseY<=420){
+        redG6 = 255
+        greenG6 = 0
+        blueG6 = 0
+    }
+    else if (mouseX>=490 && mouseX<=560 && mouseY>=350 && mouseY<=420){
+        redH6 = 255
+        greenH6 = 0
+        blueH6 = 0
+    }
+    else if (mouseX>=630 && mouseX<=700 && mouseY>=280 && mouseY<=350){
+        redJ5 = 255
+        greenJ5 = 0
+        blueJ5 = 0
+    }
+    else if (mouseX>=630 && mouseX<=700 && mouseY>=350 && mouseY<=420){
+        redJ6 = 255
+        greenJ6 = 0
+        blueJ6 = 0
+    }
+    else if (mouseX>=630 && mouseX<=700 && mouseY>=420 && mouseY<=490){
+        redJ7 = 255
+        greenJ7 = 0
+        blueJ7 = 0
+    }
+    else if (mouseX>=630 && mouseX<=700 && mouseY>=490 && mouseY<=560){
+        redJ8 = 255
+        greenJ8 = 0
+        blueJ8 = 0
+    }
+} 
